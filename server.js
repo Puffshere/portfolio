@@ -30,7 +30,7 @@ app.get('/contact', (req, res) => {
   app.post('/thanks', (req, res) => {
     res.render('thanks', { contact: req.body })
   });
+  var port = process.env.PORT || 8080;
 
-app.listen(8080, () => {
-    console.log('listening at http://localhost:8080');
-});
+  app.listen(port);
+  
