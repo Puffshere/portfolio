@@ -53,3 +53,35 @@ text-align: center;
     width: auto;
     height: 2000px;
 }
+
+.weatherApp {
+    background-repeat: no-repeat;
+    width: 439px;
+    height: 300px;
+    z-index: -1;
+    margin: 47px 1px 1px 23px;
+}
+
+.awareness {
+    background-repeat: no-repeat;
+    width: 439px;
+    height: 300px;
+    z-index: -1;
+    margin: 47px 1px 1px 23px;
+}
+
+.movie {
+    background-repeat: no-repeat;
+    width: 439px;
+    height: 300px;
+    z-index: -1;
+    margin: 47px 1px 1px 23px;
+}
+
+.sanDiego {
+    background-repeat: no-repeat;
+    width: 439px;
+    height: 300px;
+    z-index: -1;
+    margin: 47px 1px 1px 23px;
+}
