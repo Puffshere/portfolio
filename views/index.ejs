@@ -1,19 +1,28 @@
 <html>
-  <head>
-    <link rel="shortcut icon" href="data:image/x-icon;," type="image/x-icon"> 
-    <link rel="stylesheet" type="text/css" href="/assets/stylesheet.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <title> Shawn's Portfolio </title>
-  </head>
-  <body>
-    <div class="container">
+
+<head>
+  <link rel="shortcut icon" href="data:image/x-icon;," type="image/x-icon">
+  <link rel="stylesheet" type="text/css" href="/assets/stylesheet.css">
+
+  <title> Shawn's Portfolio </title>
+</head>
+
+<body>
+  <div class="backy">
+    <br>
+    <br>
+    <br>
+    <div class="container iAmStyling">
       I am <%= person.firstName %> <%= person.lastName %>
     </div>
+    <br>
+    <br>
+    <br>
 
     <form action="/contact" method="get">
-      <button type="submit">Contact</button>
-      <!-- <button type="submit" formmethod="post">Submit using POST</button> -->
+      <button class="btn" type="submit">Contact</button>
     </form>
+  </div>
+</body>
 
-  </body>
 </html>

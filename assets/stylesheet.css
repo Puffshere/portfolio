@@ -40,5 +40,16 @@ text-align: center;
     height: 40px;
     width: 250px;
     font-size: 25px;
+}
 
+.iAmStyling {
+    font-size: 100px;
+    text-align: center;
+}
+
+.backy {
+    background-image: linear-gradient(#bebebe,#8c8d8d);  
+    margin: auto 10px;
+    width: auto;
+    height: 2000px;
 }
