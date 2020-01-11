@@ -1,0 +1,28 @@
+.happy {
+    background-color: red;
+}
+
+.padding-left {
+padding-left: 15px;
+}
+
+.card {
+    background-color: #a29e9e;
+}
+
+.btn {
+    background-color: teal;
+    color: white;
+}
+.btn:hover {
+    background-color: rgb(1, 70, 70);
+}
+.btn:focus {
+    background-color: rgb(0, 12, 12);
+}
+
+.titleStyling {
+    text-align: center;
+    padding-top: 15px;
+    text-shadow: 2px 2px 2px whitesmoke;
+}

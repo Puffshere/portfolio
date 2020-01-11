@@ -3,6 +3,7 @@ const morgan = require('morgan');
 const bodyParser = require('body-parser');
 
 const app = express();
+app.use('/assets', express.static('assets'));
 
 app.use(morgan('dev'))
 app.use(bodyParser.json())
@@ -33,4 +34,3 @@ app.get('/contact', (req, res) => {
   var port = process.env.PORT || 8080;
 
   app.listen(port);
-  

@@ -1,20 +1,49 @@
 <html>
-    <head>
-        <title>Contact Shawn</title>
-    </head>
-    <body>
-      <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/shawncurtistaylor@hotmail.com" method="post">
-        <fieldset id="fs-frm-inputs">
-          <label for="full-name">Full Name</label>
-          <input type="text" name="name" id="full-name" placeholder="First and Last" required="">
-          <label for="email-address">Email Address</label>
-          <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required="">
-          <label for="message">Message</label>
-          <textarea rows="1" name="message" id="message" placeholder="Your message here." required=""></textarea>
-          <!-- <input type="hidden" name="_after" id="email-subject" value="/thanks"> -->
-          <input type="hidden" name="_after" action="https://formspree.io/shawncurtistaylor@hotmail.com" method="post">
-        </fieldset>
-        <input type="submit" value="Submit">
-      </form>
-    </body>
+
+<head>
+  <title>Contact Shawn</title>
+  <link rel="stylesheet" type="text/css" href="/assets/stylesheet.css">
+  <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"> -->
+
+</head>
+
+<body>
+  <div class="flex-container">
+    <div class="card form-group">
+      <h2 class="titleStyling">Contact Shawn Taylor</h2>
+      
+        <!-- <div class="font"> -->
+        <form id="fs-frm" name="" accept-charset="utf-8"
+          action="https://formspree.io/shawncurtistaylor@hotmail.com" method="post">
+          <fieldset id="fs-frm-inputs">
+          <!-- </div> -->
+          <br>
+          <div class="padding-left">
+            <label for="firstName">First Name:</label>
+            <input id="firstName" name="firstName" type="text">
+            <br>
+            <br>
+            <label for="lastName">Last Name:</label>
+            <input id="lastName" name="lastName" type="text">
+            <br>
+            <br>
+            <label for="email-address">Email Address:</label>
+            <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required="">
+            <br>
+            <br>
+            <label for="message">Message:</label>
+            <textarea rows="1" name="message" id="message" placeholder="Your message here." required=""></textarea>
+           <br>
+           <br>
+            <input type="hidden" name="_after" action="/thanks" method="post">
+          </fieldset>
+          <br>
+          <input class="btn" type="submit" value="Submit">
+        </form>
+      </div>
+      </div>
+      
+</body>
+
 </html>
