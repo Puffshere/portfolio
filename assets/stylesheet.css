@@ -1,14 +1,10 @@
-.happy {
-    background-color: red;
-}
-
 .padding-left {
-/* padding-left: 15px; */
 text-align: center;
 }
 
 .card {
-    background-color: #a29e9e;
+    background-image: linear-gradient(#bebebe,#8c8d8d);
+    font-size: 50px;
 }
 
 .btn {
@@ -19,6 +15,11 @@ text-align: center;
     box-shadow: 2px 2px 2px whitesmoke;
     display: block;
     margin: auto;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    height:70px;
+    width:170px;
+    font-size: 30px;
 }
 .btn:hover {
     background-image: linear-gradient(#1a9ccf,#015169);
@@ -30,6 +31,14 @@ text-align: center;
 
 .titleStyling {
     text-align: center;
-    padding-top: 15px;
+    padding-top: 30px;
     text-shadow: 2px 2px 2px whitesmoke;
+    margin-bottom: 50px;
+}
+
+.input {
+    height: 40px;
+    width: 250px;
+    font-size: 25px;
+
 }
