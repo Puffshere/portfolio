@@ -1,3 +1,10 @@
+body {
+    background-image: url("images/lights.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
 .padding-left {
 text-align: center;
 }
@@ -20,13 +27,15 @@ text-align: center;
     height:70px;
     width:170px;
     font-size: 30px;
+    cursor: pointer;
 }
 .btn:hover {
     background-image: linear-gradient(#1a9ccf,#015169);
-    
+    cursor: pointer;
 }
 .btn:focus {
     background-image: linear-gradient(#136d91,#01212b);
+    cursor: pointer;
 }
 
 .btn1 {
@@ -42,15 +51,18 @@ text-align: center;
     height:35px;
     width:80px;
     font-size: 15px;
-    margin-bottom: -60px;
+    /* margin-bottom: -60px; */
+    cursor: pointer;
 }
 
-.btn:hover {
+.btn1:hover {
     background-image: linear-gradient(#1a9ccf,#015169);
+    cursor: pointer;
 }
 
-.btn:focus {
+.btn1:focus {
     background-image: linear-gradient(#136d91,#01212b);
+    cursor: pointer;
 }
 
 .titleStyling {
@@ -58,7 +70,17 @@ text-align: center;
     padding-top: 30px;
     text-shadow: 2px 2px 2px whitesmoke;
     margin-bottom: 50px;
+    position: relative;
+    -webkit-animation: mysecond 5s linear 2s infinite alternate; 
+    animation: mysecond 5s linear 2s infinite alternate;
+    font-family: 'Courgette', cursive;
 }
+
+@-webkit-keyframes mysecond {
+    0%   {color:rgb(241, 193, 193);}
+    50%  {right:0px; top:0px;}
+    100% {color: rgb(107, 41, 41);}
+  }
 
 .input {
     height: 40px;
@@ -66,16 +88,8 @@ text-align: center;
     font-size: 25px;
 }
 
-.iAmStyling {
-    font-size: 80px;
-    text-align: center;
-    font-family: 'Courgette', cursive;
-    text-shadow: 2px 2px 2px white;
-    color: #003d5a;
-}
-
 .backy {
-    background-image: linear-gradient(#bebebe,#8c8d8d);  
+    background-image: linear-gradient(#bebebe,#212222);  
     margin: auto 10px;
     width: auto;
     height: 2000px;
@@ -131,6 +145,16 @@ text-align: center;
     border-style: outset;
 }
 
+.lights {
+    background-repeat: no-repeat;
+    width: 433px;
+    height: 300px;
+    z-index: -1;
+    margin: 47px 1px 1px 23px;
+    cursor: pointer;
+    border-style: outset;
+}
+
 .rock {
     background-repeat: no-repeat;
     width: 200px;
@@ -145,3 +169,22 @@ text-align: center;
     text-align: center;
     margin-bottom: -21px;
 }
+
+.iAmStyling {
+    font-size: 80px;
+    text-align: center;
+    font-family: 'Courgette', cursive;
+    text-shadow: 2px 2px 2px white;
+}
+
+.iAmStyling {
+    position: relative;
+    -webkit-animation: myfirst 5s linear 2s infinite alternate; 
+    animation: myfirst 5s linear 2s infinite alternate;
+  }
+  
+  @-webkit-keyframes myfirst {
+    0%   {color: rgba(193, 238, 241, 0.02); left:-15px; top:0px;}
+    50%  {right:0px; top:0px;}
+    100% {color: rgb(41, 88, 107); left:15px; top:0px;}
+  }
