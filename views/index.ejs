@@ -3,32 +3,34 @@
 <head>
   <link rel="shortcut icon" href="data:image/x-icon;," type="image/x-icon">
   <link rel="stylesheet" type="text/css" href="/assets/stylesheet.css">
-
+  <link href="https://fonts.googleapis.com/css?family=Courgette&display=swap" rel="stylesheet">
+  <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
   <title> Shawn's Portfolio </title>
 </head>
 
 <body>
   <div class="backy">
-    <br>
-    <br>
-    <br>
-    <div class="container iAmStyling">
+    <div class="iAmStyling">
       I am <%= person.firstName %> <%= person.lastName %>
+      <form action="/contact" method="get">
+        <button class="btn1" type="submit">Contact</button>
+      </form>
     </div>
-    <br>
-    <img src="/images/weatherApp.png" class="weatherApp">
-    <img src="/images/awareness.png" class="awareness">
-    <img src="/images/movie.png" class="movie">
-    <img src="/images/sanDiego.png" class="sanDiego">
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
+    <hr>
+    <h1 class="projectTitleStyling">Some current projects:</h1>
 
-    <form action="/contact" method="get">
-      <button class="btn" type="submit">Contact</button>
-    </form>
+    <a href="https://weatherapp6980.herokuapp.com/">
+      <img src="/images/weatherApp.png" class="weatherApp"></a>
+
+    <img src="/images/awareness.png" class="awareness">
+
+    <img src="/images/movie.png" class="movie">
+
+    <img src="/images/sanDiego.png" class="sanDiego">
+
+    <img src="/images/jack.png" class="jack">
+
+
   </div>
 </body>
 

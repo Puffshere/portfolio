@@ -29,6 +29,30 @@ text-align: center;
     background-image: linear-gradient(#136d91,#01212b);
 }
 
+.btn1 {
+    background-image: linear-gradient(#20b6f1,#036988);
+    color: white;
+    border-radius: 5px;
+    align-content: center;
+    box-shadow: 2px 2px 2px whitesmoke;
+    display: block;
+    margin: auto;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    height:35px;
+    width:80px;
+    font-size: 15px;
+    margin-bottom: -60px;
+}
+
+.btn:hover {
+    background-image: linear-gradient(#1a9ccf,#015169);
+}
+
+.btn:focus {
+    background-image: linear-gradient(#136d91,#01212b);
+}
+
 .titleStyling {
     text-align: center;
     padding-top: 30px;
@@ -43,8 +67,11 @@ text-align: center;
 }
 
 .iAmStyling {
-    font-size: 100px;
+    font-size: 80px;
     text-align: center;
+    font-family: 'Courgette', cursive;
+    text-shadow: 2px 2px 2px white;
+    color: #003d5a;
 }
 
 .backy {
@@ -56,32 +83,65 @@ text-align: center;
 
 .weatherApp {
     background-repeat: no-repeat;
-    width: 439px;
+    width: 433px;
     height: 300px;
     z-index: -1;
     margin: 47px 1px 1px 23px;
+    cursor: pointer;
+    border-style: outset;
 }
 
 .awareness {
     background-repeat: no-repeat;
-    width: 439px;
+    width: 433px;
     height: 300px;
     z-index: -1;
     margin: 47px 1px 1px 23px;
+    cursor: pointer;
+    border-style: outset;
 }
 
 .movie {
     background-repeat: no-repeat;
-    width: 439px;
+    width: 433px;
     height: 300px;
     z-index: -1;
     margin: 47px 1px 1px 23px;
+    cursor: pointer;
+    border-style: outset;
 }
 
 .sanDiego {
     background-repeat: no-repeat;
-    width: 439px;
+    width: 433px;
     height: 300px;
     z-index: -1;
     margin: 47px 1px 1px 23px;
+    cursor: pointer;
+    border-style: outset;
+}
+
+.jack {
+    background-repeat: no-repeat;
+    width: 433px;
+    height: 300px;
+    z-index: -1;
+    margin: 47px 1px 1px 23px;
+    cursor: pointer;
+    border-style: outset;
+}
+
+.rock {
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 300px;
+    z-index: -1;
+    margin: 47px 1px 1px 23px;
+    cursor: pointer;
+    border-style: outset;
+}
+
+.projectTitleStyling {
+    text-align: center;
+    margin-bottom: -21px;
 }
