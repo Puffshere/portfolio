@@ -6,7 +6,16 @@ body {
 }
 
 .padding-left {
-text-align: center;
+    text-align: center;
+}
+
+.centering {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    flex-wrap: wrap;
 }
 
 .card {
@@ -51,8 +60,8 @@ text-align: center;
     height:35px;
     width:80px;
     font-size: 15px;
-    /* margin-bottom: -60px; */
     cursor: pointer;
+    margin-top: 15px;
 }
 
 .btn1:hover {
@@ -67,17 +76,18 @@ text-align: center;
 
 .titleStyling {
     text-align: center;
-    padding-top: 30px;
+    padding-top: 5px;
     text-shadow: 2px 2px 2px whitesmoke;
-    margin-bottom: 50px;
+    padding-bottom: 20px;
     position: relative;
     -webkit-animation: mysecond 5s linear 2s infinite alternate; 
     animation: mysecond 5s linear 2s infinite alternate;
     font-family: 'Courgette', cursive;
+    margin-bottom: 0px;
 }
 
 @-webkit-keyframes mysecond {
-    0%   {color:rgb(241, 193, 193);}
+    0%   {background-color: rgb(97, 97, 100); color:rgb(241, 193, 193);}
     50%  {right:0px; top:0px;}
     100% {color: rgb(107, 41, 41);}
   }
@@ -175,6 +185,7 @@ text-align: center;
     text-align: center;
     font-family: 'Courgette', cursive;
     text-shadow: 2px 2px 2px white;
+    padding-bottom: 13px;
 }
 
 .iAmStyling {
@@ -184,7 +195,12 @@ text-align: center;
   }
   
   @-webkit-keyframes myfirst {
-    0%   {color: rgba(193, 238, 241, 0.02); left:-15px; top:0px;}
+    0%   {background-color: rgb(97, 97, 100); color:rgb(241, 193, 193); left:-15px; top:0px;}
     50%  {right:0px; top:0px;}
-    100% {color: rgb(41, 88, 107); left:15px; top:0px;}
+    100% {color: rgb(107, 41, 41); left:15px; top:0px;}
   }
+
+  .lineAdjust {
+      margin-top: 1px;
+  }
+ 
