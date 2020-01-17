@@ -107,8 +107,8 @@ body {
 
 .weatherApp {
     background-repeat: no-repeat;
-    width: 433px;
-    height: 300px;
+    width: 400px;
+    height: 270px;
     z-index: -1;
     margin: 47px 1px 1px 23px;
     cursor: pointer;
@@ -137,6 +137,16 @@ body {
 
 .sanDiego {
     background-repeat: no-repeat;
+    width: 400px;
+    height: 270px;
+    z-index: -1;
+    margin: 47px 1px 1px 23px;
+    cursor: pointer;
+    border-style: outset;
+}
+
+.jack {
+    background-repeat: no-repeat;
     width: 433px;
     height: 300px;
     z-index: -1;
@@ -145,7 +155,7 @@ body {
     border-style: outset;
 }
 
-.jack {
+.vstda {
     background-repeat: no-repeat;
     width: 433px;
     height: 300px;
