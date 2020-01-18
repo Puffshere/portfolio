@@ -72,14 +72,14 @@
     text-shadow: 2px 2px 2px whitesmoke;
     padding-bottom: 20px;
     position: relative;
-    -webkit-animation: mysecond 5s linear 2s infinite alternate; 
-    animation: mysecond 5s linear 2s infinite alternate;
+    -webkit-animation: myfirst 5s linear 2s infinite alternate; 
+    animation: myfirst 5s linear 2s infinite alternate;
     font-family: 'Courgette', cursive;
     margin-bottom: 0px;
 }
 
 @-webkit-keyframes mysecond {
-    0%   {background-color: rgb(97, 97, 100); color:rgb(241, 193, 193);}
+    0%   {color:rgb(241, 193, 193);}
     50%  {right:0px; top:0px;}
     100% {color: rgb(107, 41, 41);}
   }
@@ -179,9 +179,11 @@
 
 .projectTitleStyling {
     text-align: center;
-    margin-bottom: -21px;
+    margin-bottom: -23px;
     color: rgb(158, 35, 35);
     font-size: 40px;
+    font-style: oblique;
+    padding-bottom: 9px;
 }
 
 .iAmStyling {
@@ -758,6 +760,7 @@ box-shadow: 15px 15px 20px rgba(0,0, 0, 0.4);
 -moz-transform: scale(1.05);
 transform: scale(1.05);
 text-align: center;
+text-rendering: optimizeLegibility;
 }
 
 .happy
@@ -984,3 +987,35 @@ p {
     text-shadow: 1px 1px 2px rgb(0, 0, 0);
     cursor: pointer; 
   }
+
+/* -------------------------------------------------------------------lazerEye----------------------------------------------- */
+
+  .polling_message {
+    color: white;
+    float: left;
+    margin-right: 2%;
+  }
+  
+  .view_port {
+    background-color: black;
+    height: 25px;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .cylon_eye {
+    background-color: rgb(123, 29, 29);;
+    background-image: linear-gradient(to right,
+        rgba(0, 0, 0, .9) 25%,
+        rgba(0, 0, 0, .1) 50%,
+        rgba(0, 0, 0, .9) 75%);
+    color: white;
+    height: 100%;
+    width: 20%;
+  
+    -webkit-animation: 4s linear 0s infinite alternate move_eye;
+            animation: 4s linear 0s infinite alternate move_eye;
+  }
+  
+  @-webkit-keyframes move_eye { from { margin-left: -20%; } to { margin-left: 100%; }  }
+          @keyframes move_eye { from { margin-left: -20%; } to { margin-left: 100%; }  }
