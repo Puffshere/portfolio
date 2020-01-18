@@ -94,7 +94,7 @@
     background-image: linear-gradient(#bebebe,#212222);  
     margin: auto 10px;
     width: auto;
-    height: 2000px;
+    height: 2143px;
 }
 
 .weatherApp {
@@ -944,3 +944,42 @@ a:-webkit-any-link {
     position: absolute;
     z-index: -1;
 }
+
+
+
+
+p {
+    animation-duration: 3s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    cursor: pointer;
+
+  }
+
+  p:hover {
+    animation-play-state: paused;
+
+  }
+  
+  @keyframes slidein {
+    from {
+      /* margin-left: 100%;
+      width: 300%;  */
+    }
+  
+    75% {
+      font-size: 300%;
+      /* margin-left: 25%;
+      width: 150%; */
+    }
+  
+    to {
+      /* margin-left: 0%;
+      width: 100%; */
+    }
+  }
+
+  .messageStyling {
+      
+  }
