@@ -52,6 +52,8 @@
     width:80px;
     font-size: 15px;
     cursor: pointer;
+    margin-right: 10px;
+    margin-left: 10px;
 }
 
 .btn1:hover {
@@ -178,7 +180,8 @@
 .projectTitleStyling {
     text-align: center;
     margin-bottom: -21px;
-    color: rgb(119, 50, 50);
+    color: rgb(158, 35, 35);
+    font-size: 40px;
 }
 
 .iAmStyling {
@@ -207,8 +210,9 @@
 }
 
 .ifStyling {
-      font-size: 23px;
-      color: rgb(107, 41, 41);
+    font-size: 46px;
+    color: rgb(158, 35, 35);
+    text-shadow: 1px 1px 2px black;
 }
 
 table {
@@ -783,8 +787,8 @@ animation: happy 5s infinite alternate;
 
 .menu {
   text-transform: uppercase;
-  color: rgba(180, 57, 57, 0.8);
-  text-shadow: 2px 2px 2px black;
+  color: rgb(158, 35, 35);
+  text-shadow: 1px 1px 2px rgb(0, 0, 0);
   display: inline-block;
   cursor: pointer;
   pointer-events: none;
@@ -792,7 +796,7 @@ animation: happy 5s infinite alternate;
   bottom: 20px;
   left: 20px;
   z-index: 5;
-  font-size: x-large;
+  font-size: 40px;
 }
 
 .menu:hover {
