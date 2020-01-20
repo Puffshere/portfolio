@@ -1188,3 +1188,259 @@ body{
     }
 
 }
+
+
+
+
+
+
+
+
+
+/* .html {
+    height: 100%;
+    
+    background-image:
+      linear-gradient(
+        155deg,
+        transparent 13%,
+        black 15%,
+        transparent 0
+        ),
+      linear-gradient(
+        90deg,
+        transparent 49%,
+        black 49%,
+        black 50%,
+        transparent 0
+        ),
+      linear-gradient(
+        65deg,
+        transparent 31%,
+        black 33%,
+        transparent 0
+        ),
+      linear-gradient(
+        45deg,
+        transparent 47%,
+        black 49%,
+        transparent 0
+        ),
+      linear-gradient(
+        25deg,
+        transparent 32%,
+        black 34%,
+        transparent 0
+        ),
+      linear-gradient(
+        -25deg,
+        transparent 60%,
+        black 62%,
+        transparent 0
+        ),
+      linear-gradient(
+        -65deg,
+        transparent 31%,
+        black 33%,
+        transparent 0
+        ),
+      linear-gradient(
+        180deg,
+        transparent 53%,
+        black 55%,
+        transparent 0
+        ),
+      linear-gradient(
+        -25deg,
+        transparent 32%,
+        black 34%,
+        transparent 0
+        ),
+      linear-gradient(
+        -65deg,
+        transparent 65%,
+        black 67%,
+        transparent 0
+        ),
+      linear-gradient(
+        -45deg,
+        transparent 47%,
+        black 49%,
+        transparent 0
+        );
+    
+    background-size: 
+      80px 100px, 
+      100px 100px, 
+      75px 100px, 
+      75px 100px, 
+      80px 100px, 
+      80px 100px, 
+      80px 100px, 
+      80px 100px, 
+      80px 100px, 
+      75px 100px, 
+      80px 100px;
+    
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    
+    animation: sloppy 2s linear infinite alternate;
+    }
+  
+  @keyframes sloppy {
+    0% {
+      background-size:  
+        0 100px, 
+        100px 0, 
+        0 100px, 
+        0 100px, 
+        0 100px, 
+        0 100px, 
+        0 100px, 
+        0 100px, 
+        0 100px, 
+        0 100px, 
+        0 100px;
+      }
+    10% {
+      background-size: 
+        0 100px, 
+        100px 100px, 
+        0 100px, 
+        0 100px, 
+        0 100px, 
+        0 100px, 
+        0 100px, 
+        0 100px, 
+        0 100px, 
+        0 100px, 
+        0 100px; 
+      }
+    20% {
+      background-size: 
+        0 100px, 
+        100px 100px, 
+        0 100px, 
+        0 100px, 
+        0 100px, 
+        80px 100px, 
+        0 100px, 
+        0 100px, 
+        0 100px, 
+        0 100px, 
+        0 100px; 
+      }
+    30% {
+      background-size: 
+        80px 100px, 
+        100px 100px, 
+        0 100px, 
+        0 100px, 
+        0 100px, 
+        80px 100px, 
+        0 100px, 
+        0 100px, 
+        0 100px, 
+        0 100px, 
+        0 100px; 
+      }
+    40% {
+      background-size: 
+        80px 100px, 
+        100px 100px, 
+        0 100px, 
+        75px 100px, 
+        0 100px, 
+        80px 100px, 
+        0 100px, 
+        0 100px, 
+        0 100px, 
+        0 100px, 
+        0 100px; 
+      }
+    50% {
+      background-size: 
+        80px 100px, 
+        100px 100px, 
+        0 100px, 
+        75px 100px, 
+        0 100px, 
+        0 100px, 
+        80px 100px, 
+        80px 100px, 
+        0 100px, 
+        0 100px, 
+        0 100px; 
+      }
+    60% {
+      background-size: 
+        80px 100px, 
+        100px 100px, 
+        75px 100px, 
+        75px 100px, 
+        0 100px, 
+        0 100px, 
+        80px 100px, 
+        80px 100px, 
+        0 100px, 
+        0 100px, 
+        0 100px; 
+      }
+    70% {
+      background-size: 
+        80px 100px, 
+        100px 100px, 
+        75px 100px, 
+        75px 100px, 
+        80px 100px, 
+        0 100px, 
+        80px 100px, 
+        80px 100px, 
+        0 100px, 
+        0 100px, 
+        80px 100px; 
+      }
+    80% {
+      background-size: 
+        80px 100px, 
+        100px 100px, 
+        75px 100px, 
+        75px 100px, 
+        80px 100px, 
+        80px 100px, 
+        80px 100px, 
+        80px 100px, 
+        0 100px, 
+        75px 100px, 
+        80px 100px; 
+      }
+    90% {
+      background-size: 
+        80px 100px, 
+        100px 100px, 
+        75px 100px, 
+        75px 100px, 
+        80px 100px, 
+        80px 100px, 
+        80px 100px, 
+        80px 100px, 
+        80px 100px, 
+        75px 100px, 
+        80px 100px; 
+      }
+    100% {
+      background-size: 
+        80px 100px, 
+        100px 100px, 
+        75px 100px, 
+        75px 100px, 
+        80px 100px, 
+        80px 100px, 
+        80px 100px, 
+        80px 100px, 
+        80px 100px, 
+        75px 100px, 
+        80px 100px;    
+      }
+    } */
