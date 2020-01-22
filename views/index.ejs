@@ -4,6 +4,7 @@
   <link rel="shortcut icon" href="data:image/x-icon;," type="image/x-icon">
   <link rel="stylesheet" type="text/css" href="/assets/stylesheet.css">
   <link href="https://fonts.googleapis.com/css?family=Courgette&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Amarante&display=swap" rel="stylesheet">
   <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
   <title> Shawn's Portfolio </title>
 
@@ -42,8 +43,13 @@
 
   <div class="backy">
 
-    <div class="iAmStyling">
-      Hello my name is <%= person.firstName %> <%= person.lastName %>
+    <div class="iAmStyling ">
+      <table class="tableStyling">
+        <tr>
+      <th class="iAmStyling1">Hello my name is</th>
+      <th class="iAmStyling2"><%= person.firstName %> <%= person.lastName %></th>
+        </tr>
+      </table>
     </div>
     <hr class="lineAdjust">
 
@@ -54,10 +60,17 @@
       <div class="cylon_eye"></div>
     </div>
 
+    
+      <div class="cylon_eye1 view_port1"></div>
+   
+
     <hr class="lineAdjust">
     <h1 class="projectTitleStyling happy">Some of my current projects:</h1>
     <div class="centering">
 
+
+
+      
 
 
       <div class="thumb1" , ondblclick>
@@ -123,7 +136,7 @@
     </div>
     <hr>
 
-    <form action="/contact" method="get">
+    <form class="color" action="/contact" method="get">
       <table>
         <tr>
           <th class="ifStyling">If you would like to see more</th>
@@ -132,6 +145,17 @@
         </tr>
       </table>
     </form>
+<!-- 
+    <form class="color" action="/thanks" method="get">
+      <table>
+        <tr>
+          <th class="ifStyling">If you would like to see more</th>
+          <th><button class="btn1" type="submit">Contact</button></th>
+          <th class="ifStyling">me!</th>
+        </tr>
+      </table>
+    </form> -->
+
     <br>
     <hr>
     <br>

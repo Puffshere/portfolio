@@ -3,78 +3,103 @@
 <head>
   <title>Contact Shawn</title>
   <link rel="stylesheet" type="text/css" href="/assets/stylesheet.css">
+  <link href="https://fonts.googleapis.com/css?family=Amarante&display=swap" rel="stylesheet">
 </head>
 
 <body>
-
+<div class="body1">
   <div class="context">
     <h1></h1>
-</div>
+  </div>
 
 
-<div class="area" >
-        <ul class="circles">
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-        </ul>
+
+  <!-- <div class="area">
+    <ul class="circles">
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+    </ul> -->
 
 
- 
+
 
   <div class="flex-container">
-    <div class="card form-group">
-      <h2 class="titleStyling">Contact Shawn Taylor</h2>
+    <div class="card form-group lap">
+      <!-- <h2 class="titleStyling tableStyling">Contact Shawn Taylor</h2> -->
+
+      <div class="iAmStyling ">
+        <table class="tableStyling1">
+          <tr>
+        <th class="iAmStyling3">Contact</th>
+        <th class="iAmStyling4">Shawn Taylor</th>
+          </tr>
+        </table>
+      </div>
+
 
       <div class="view_port">
         <div class="polling_message">
-         
+
         </div>
         <div class="cylon_eye"></div>
       </div>
 
-      <form id="fs-frm" name="" accept-charset="utf-8" action="https://formspree.io/shawncurtistaylor@hotmail.com"
-        method="post">
+      <div class="cylon_eye1 view_port1"></div>
 
-        <fieldset id="fs-frm-inputs">
+      <div class="background-container planet body1">
+        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/1231630/moon2.png" alt="">
+        <div class="twinkling">
+          <div class="stars">
+            <div class="clouds">
+            </div>
+          </div>
+        </div>
+
+        <form id="fs-frm" name="" accept-charset="utf-8" action="https://formspree.io/shawncurtistaylor@hotmail.com"
+          method="post">
+
+          <fieldset id="fs-frm-inputs">
+            <br>
+            <div class="padding-left">
+              <label for="firstName">First Name:</label>
+              <input class='input' id="firstName" name="firstName" type="text">
+              <br>
+              <br>
+              <label for="lastName">Last Name:</label>
+              <input class='input' id="lastName" name="lastName" type="text">
+              <br>
+              <br>
+              <label for="email-address">Email Address:</label>
+              <input class='input slack' type="email" name="_replyto" id="email-address" placeholder="email@domain.tld"
+                required="">
+              <br>
+              <br>
+              <label for="message">Message:</label>
+              <textarea class='input slack' rows="1" name="message" id="message" placeholder="Your message."
+                required=""></textarea>
+              <br>
+              <br>
+              <input type="hidden" name="_after" action="/thanks" method="post">
+          </fieldset>
           <br>
-          <div class="padding-left">
-            <label for="firstName">First Name:</label>
-            <input class='input' id="firstName" name="firstName" type="text">
-            <br>
-            <br>
-            <label for="lastName">Last Name:</label>
-            <input class='input' id="lastName" name="lastName" type="text">
-            <br>
-            <br>
-            <label for="email-address">Email Address:</label>
-            <input class='input slack' type="email" name="_replyto" id="email-address" placeholder="email@domain.tld"
-              required="">
-            <br>
-            <br>
-            <label for="message">Message:</label>
-            <textarea class='input slack' rows="1" name="message" id="message" placeholder="Your message."
-              required=""></textarea>
-            <br>
-            <br>
-            <input type="hidden" name="_after" action="/thanks" method="post">
-        </fieldset>
-        <br>
-        <input class="btn" type="submit" value="Submit">
-        <br>
-      </form>
+          <input class="btn" type="submit" value="Submit">
+          <br>
+        </form>
+
+
+
 
       
-    </div>
+   </div>
   </div>
-</div>
 </body>
 
 </html>
