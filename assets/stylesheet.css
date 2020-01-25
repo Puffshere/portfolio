@@ -64,6 +64,31 @@
     background-image: linear-gradient(#136d91,#01212b);
     cursor: pointer;
 }
+.btn {
+    background-image: linear-gradient(#20b6f1,#036988);
+    color: white;
+    border-radius: 5px;
+    align-content: center;
+    box-shadow: 2px 2px 2px whitesmoke;
+    display: block;
+    margin: auto;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    height:70px;
+    width:170px;
+    font-size: 30px;
+    cursor: pointer;
+    position: relative;
+    z-index: 10;
+}
+.btn:hover {
+    background-image: linear-gradient(#1a9ccf,#015169);
+    cursor: pointer;
+}
+.btn:focus {
+    background-image: linear-gradient(#136d91,#01212b);
+    cursor: pointer;
+}
 
 .btn1 {
     background-image: linear-gradient(#20b6f1,#036988);
@@ -93,6 +118,34 @@
     cursor: pointer;
 }
 
+
+.btn2 {
+    background-image: linear-gradient(#20b6f1,#036988);
+    color: white;
+    border-radius: 5px;
+    align-content: center;
+    box-shadow: 2px 2px 2px whitesmoke;
+    display: block;
+    margin: auto;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    height:20px;
+    width:60px;
+    font-size: 10px;
+    cursor: pointer;
+    position: relative;
+    z-index: 10;
+}
+.btn2:hover {
+    background-image: linear-gradient(#1a9ccf,#015169);
+    cursor: pointer;
+}
+.btn2:focus {
+    background-image: linear-gradient(#136d91,#01212b);
+    cursor: pointer;
+}
+
+
 .titleStyling {
     text-align: center;
     padding-top: 5px;
@@ -120,6 +173,9 @@
     position: relative;
     z-index: 3;
     background-color: rgba(107, 41, 41, 0.25);
+    color: white;
+    margin-right: 40px;
+    border: black;
 }
 
 .backy {
@@ -1171,6 +1227,7 @@ label {
     position: relative;
     z-index: 3;
     color: rgb(107, 41, 41);
+    padding-left: 40px;
 
 }
 
@@ -1588,7 +1645,7 @@ body{
         75px 100px, 
         80px 100px;    
       }
-    } */
+    } */ 
 
 
 
@@ -1687,9 +1744,21 @@ body{
    } */
    
    .user-name{
-     margin-top: 15px;
+     margin-top: -15px;
      margin-bottom: 15px;
-     color: white;
+     color: rgb(138, 131, 123);
+     font-size: xx-large;
+     text-shadow: 2px 2px 2px black;
+     font-family: 'Amarante', cursive;
+   }
+
+   .thanksNot {
+    font-family: 'Courgette', cursive;
+    color: rgb(138, 131, 123);
+    text-shadow: 1px 1px 1px white;
+    font-weight: bold;
+    padding-bottom: 10px;
+    font-size: 40px;
    }
    
    input.user-password{
@@ -1749,71 +1818,6 @@ body{
       }
   }
 
-
-  /* .blurred-box{
-    position: relative;
-    width: 250px;
-    height: 350px;
-    top: calc(50% - 175px);
-    left: calc(50% - 125px);
-    background: inherit;
-    border-radius: 2px;
-    overflow: hidden;
-    z-index: 4;
-  } */
-  
-  /* .blurred-box:after{
-   content: '';
-   width: 300px;
-   height: 300px;
-   background: inherit; 
-   position: absolute;
-   left: -25px;
-  
-   right: 0;
-   top: -25px;  
- 
-   bottom: 0;
-   box-shadow: inset 0 0 0 200px rgba(255,255,255,0.05);
-   filter: blur(10px);
-  } */
-   
-  
-
-  /* .user-login-box{
-    position: relative;
-    margin-top: 50px;
-    text-align: center;
-    z-index: 4;
-  }
-  .user-login-box > *{
-    display: inline-block;
-    width: 200px;
-  } */
-  
-  /* .user-icon{
-    width: 100px;
-    height: 100px;
-    position: relative;
-    border-radius: 50%;
-    background-size: contain;
-    background-image: url();
-  } */
-  
-  /* .user-name{
-    margin-top: 15px;
-    margin-bottom: 15px;
-    color: white;
-  }
-  
-  input.user-password{
-    width: 120px;
-    height: 18px;
-    opacity: 0.4;
-    border-radius: 2px;
-    padding: 5px 15px;
-    border: 0;
-  }  */
 
     
   .background-container{

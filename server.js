@@ -30,7 +30,7 @@ app.get('/contact', (req, res) => {
   res.render('contact');
 });
 
-app.get('/thanks', (req, res) => {
+app.post('/thanks', (req, res) => {
   res.render('thanks', { contact: req.body })
 });
 var port = process.env.PORT || 8080;
